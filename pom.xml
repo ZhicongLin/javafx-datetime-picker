@@ -1,0 +1,34 @@
+<project
+		xmlns="http://maven.apache.org/POM/4.0.0"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.browniebytes.javafx.control</groupId>
+	<artifactId>datetime-picker</artifactId>
+	<version>1.0.4</version>
+	<distributionManagement>
+		<repository>
+			<id>Well-Soft-Releases</id>
+			<name>Well Soft Releases Repository</name>
+			<url>http://nexus.well-soft.com:81/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>Well-Soft-Snapshots</id>
+			<name>Well Soft Snapshots Repository</name>
+			<url>http://nexus.well-soft.com:81/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
